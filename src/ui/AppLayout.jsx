@@ -8,7 +8,7 @@ function AppLayout() {
   const isLoading = navigation.state === 'loading';
 
   return (
-    <div className="grid h-screen grid-rows-[auto_1fr_auto]  bg-[url('https://images.pexels.com/photos/2233348/pexels-photo-2233348.jpeg?auto=compress&cs=tinysrgb&w=600')] md:bg-[url('https://images.pexels.com/photos/2233348/pexels-photo-2233348.jpeg?auto=compress&cs=tinysrgb&w=1500')] ">
+    <div className="grid h-screen grid-rows-[auto_1fr_auto]   ">
       {isLoading && <Loader />}
 
       <Header />
